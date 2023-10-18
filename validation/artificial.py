@@ -15,7 +15,7 @@ time_start = time.time()
 
 file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'annotation.json')
 annotation_data = json.load(open(file_path, 'r', encoding='utf-8'))
-file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'sampling.json')
+file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'artificial.json')
 sampling_data = json.load(open(file_path, 'r', encoding='utf-8'))
 
 random.seed(0)
